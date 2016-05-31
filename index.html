@@ -1,0 +1,350 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplicacion Tres</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/app4.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/15.jpg','imagenes/19.jpg','imagenes/cecina2.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" 	   data-back-btn-theme="b">
+<h1><center>ATLIXCO TURISTICO</center></h1>
+</div>
+
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>ATLIXCO</h1>
+<div>
+<p>Imagenes</p>
+</div>
+<!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:640px;height:140px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+
+
+</div>
+</div>
+
+<div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Mejor Clima Atlixco</h2>
+<p>muestra la informacion</p>
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Fiestas Pratias En Atlixco</h2>
+<p>Muestra la informacion</p>
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Feria De La Cecina</h2>
+<p>Muestra la informacion</p>
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Semana Santa En Atlixco</h2>
+<p>Muestra la informacion</p>
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Elaborado Por</h2>
+<p>Muestra la informacion</p>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="b">
+  <div>
+  <img src="imagenes/Flower-icon.png" width="46" height="46">
+  </div>
+  <div>
+  <h4>ATLIXCO</h4>
+  </div>
+  </div>
+</div>
+  <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>ATLIXCO EL MEJOR CLIMA</h1>
+ 
+  </div>
+<div data-role="content" align="center">
+  <div>
+    <iframe width="90%" height="315" src="https://www.youtube.com/embed/Hff0gQDd0Yo" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div>
+  <h4>También conocido como «Atlixco de las flores», es una ciudad que se localiza al suroeste de la Ciudad de Puebla. Recibió su título de «Heroica»5 debido a la Batalla del 4 de mayo de 1862 que precedería a la Batalla de Puebla del 5 de mayo de 1862.
+
+Es conocido por su buen clima y la gran actividad florística, comercial y turística que le valieron haber sido llamada Atlixco de las Flores y Granero de la Nueva España, durante la época colonial.
+
+El último domingo de septiembre, en la explanada del cerro de San Miguel, Atlixco se convierte en la sede de un festival en el que se reúnen los representantes de las once regiones culturales del estado de Puebla, festival que es llamado «Huey Atlixcáyotl» o Fiesta Grande de Atlixco y que es patrimonio cultural del estado de Puebla.
+
+En 1884, el Congreso local decretó que la cabecera municipal de Atlixco se llamara «Atlixco de Múgica y Osorio»; en honor al Benemérito del Estado de Puebla, Juan Múgica y Osorio.</h4>
+  <div data-role="footer" data-theme="a"data-position="fixed">
+  <h4>ATLIXCO </h4>
+  <div>
+  <img src="imagenes/Flower-icon.png" width="46" height="46">
+  </div>
+  </div>
+  </div>
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>VILLA ILUMINADA</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h4>La “Villa Iluminada” es un recorrido que resalta la belleza arquitectónica de esta ciudad, embelleciéndola con luz.
+
+Durante más de cuarenta días las calles formarán un circuito de luz y color, vestidas de figuras y escenas alusivas a la navidad, las tradiciones y la identidad de la ciudad.
+
+Los edificios antiguos serán engalanados con luces, lo que destacará su bella arquitectura y valor histórico.</h4></div>
+<div>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/HI_UHhmR2JU" frameborder="0" allowfullscreen></iframe>
+ </div>
+ <div data-role="footer" data-theme="a"data-position="fixed">
+ <h4>ATLIXCO UN LUGAR TURISTICO</h4>
+ </div>
+ </div>
+ </div>
+
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>RESTAURANTES EN ATLIXCO</h1>
+ </div>
+ <div data-role="content">
+ <div>
+ <h2>
+ 
+<BR>
+<BR>
+  <TABLE BORDER="5" BORDERCOLOR="RED" WIDTH="100%" HEIGHT="60%">
+
+<BR>
+<BR>
+  <TABLE BORDER="5" BORDERCOLOR="RED" WIDTH="100%" HEIGHT="20%">
+
+ <TR>
+<TD BGCOLOR ="EEE8AA" WIDTH="55%"  >     <FONT SIZE="5"> 
+
+El Amigo Valente
+N.º 18 de 24 Restaurantes en Atlixco
+4 de 5 estrellas 3 opiniones
+“Delicioso!” 14/09/2014
+“Muy buen lugar” 01/04/2014
+Mapa  Fotos de visitantes (1)
+Comida: mexicana
+
+ </FONT>
+ </TD>
+
+<TD BGCOLOR ="GREEN" WIDTH="45%" BACKGROUND ="D:/23-JAVIER-RAMIREZ-ROJAS/UNIDAD 1/PRACTICAS/d.jpg"><img src="imagenes/13.jpg" width="580" height="360" alt="fghs"></TD>
+
+</TABLE>
+<BR>
+<BR>
+
+
+
+</h2>
+ <div>
+ <center></center> </div>
+ 
+ </div>
+ </div>
+<div data-role="footer" data-theme="a"data-position="fixed">
+ <h4>ATLIXCO UN LUGAR TURISTICO</h4>
+ </div>
+ </div>
+ </div>
+
+  <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>LUGARES</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2>
+Ex Convento Del Carmen
+ 
+</h2>
+ <div>
+ <center>
+   <img src="imagenes/ex1.jpg" width="500" height="250" alt="hgnbds">
+   <p><a href="http://www.corazondepuebla.com.mx/atlixco.html">http://www.corazondepuebla.com.mx/atlixco.html</a></p>
+ </center> </div>
+ 
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a"data-position="fixed">
+ <h4>ATLIXCO</h4>
+ </div>
+ </div>
+ </div>
+  
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>FIESTAS PATRIAS</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h4>
+ Es común que cada 15 de septiembre en el zócalo de Atlixco  familias enteras acudan a las plazas y centros principales de las ciudades, así como a los edificios de ayuntamientos para conmemorar un aniversario más del Grito de Independencia, el cual se ha convertido ya en una tradición patria.
+Para Atlixco es una enorme tradición ya que cada 15 de septiembre hay fiesta donde la noche se llena de muchos habitantes contando con cohetes artificiales 
+
+ 
+</h4>
+ <div>
+ <center>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/15.jpg',1)"><img src="imagenes/14.jpg" width="200" height="150" id="Image13"></a>
+ </center> </div>
+
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a"data-position="fixed">
+ <h4>ATLIXCO</h4>
+ </div>
+ </div>
+ </div>
+ 
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>FERIA DE LA CECINA</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h4>
+El municipio de Atlixco será sede de la Feria de la Cecina, por lo que se esperan miles de visitantes, quienes año con año se dan cita para probar este platillo en los diversos stands y restaurantes que participan en el evento. 
+La cecina proviene de la parte más suave de la res como es el lomo, pieza negra, bola y aguayón y su producción es una tradición de los atlixquenses, que se practica desde el siglo pasado.
+ 
+Disfrútala, acompañada de guarniciones típicas de Puebla como: nopales, queso, crema, aguacate y las deliciosas tortillas hechas a mano.
+
+ 
+</h4>
+ <div>
+ <center>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/cecina2.jpg',1)"><img src="imagenes/cecina1.jpg" width="321" height="500" id="Image10"></a> </div>
+ </div>
+ <div data-role="footer" data-theme="a"data-position="fixed">
+ <h4>ATLIXCO</h4>
+  <img src="imagenes/Flower-icon.png" width="46" height="46">
+  </div>
+ </div>
+ </div>
+ </div>
+ 
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>EXPO FLORES Y PLANTAS</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h4>
+El evento se realiza en el resinto ferial de atlixco dando inicio del 11 al 26 de junio es una expo donde se realiza una venta de todo tipo de flores
+
+ </h4>
+ <div>
+ <center>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/19.jpg',1)"><img src="imagenes/18.jpg" width="400" height="300" id="Image2"></a>
+ </center> </div>
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a"data-position="fixed">
+ <h4>ATLIXCO</h4>
+ </div>
+ </div>
+ </div>
+<div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>SEMANA SANTA EN ATLIXCO</h1>
+ </div>
+<div data-role="content" align="center">
+ <div>
+ <h4>Cada 20 de marzo jueves y viernes Santos se hacen representaciones de la vida de Cristo, bueno eso dicen ellos, pero el día viernes en el centro de la Ciudad, se hace una especie de caminata por diversas iglesias, en las cuales también se sacan a las figuras más representativas de las Iglesias. 
+Y al final del recorrido todas se unen en la Catedral, pero cada Iglesia empieza de un determinado punto para que al final, todas lleguen a la Catedral. 
+Pero es lo que más recuerdo, aunque lo más mejor es ver a los Huehues cada año, antes de que sea la Semana Santa, ya que con sus bailes se burlan de los ricos de antaño, y cuyo fin es actualmente mantener viva la Tradición de bailar cada año, antes de Cuaresma o Semana Santa.
+ </h4></div>
+<div>
+ <img src="imagenes/semana.jpg" width="150" height="100" >
+<div data-role="footer" data-theme="a"data-position="fixed">
+  <h4>ATLIXCO </h4>
+  <div>
+  <img src="imagenes/Flower-icon.png" width="46" height="46">
+  </div>
+ </div>
+ </div>
+</div>
+  
+  <div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>Elaborado Por:</h1>
+ </div>
+<div data-role="content" align="center">
+ <div>
+ <h>
+ <div>
+ <img src="imagenes/yo.png" width="10%" height="10%"> </div>
+ Nombre:Norma Edith Ortega Flores
+<br>
+<br>
+ Maestro:Jose Antonio Gomez Hernández 
+ <br>
+<br>
+ Escuela:Centro de Bachillerato Tecnologico Industrial y de Servicios NO.16
+ <br>
+<br>
+<br>
+Especialidad: Programacion
+<br>
+ Grado: 4          Grupo: "G"</h2></div>
+ <div data-role="footer" data-theme="a"data-position="fixed">
+ <h4>ATLIXCO </h4>
+ </div>
+ </div>
+ </div>
+</div>
+
+</body>
+ </html>
